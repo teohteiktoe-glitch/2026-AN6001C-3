@@ -1,6 +1,7 @@
 #web app
 
 from flask import Flask,request,render_template
+import joblib
 
 app = Flask(__name__)
 
